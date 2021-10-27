@@ -2,6 +2,7 @@ package com.nepalaya.jdvc.service.impl;
 
 import com.nepalaya.jdvc.builder.ResponseBuilder;
 import com.nepalaya.jdvc.dao.StudentDAO;
+import com.nepalaya.jdvc.dao.impl.StudentDAODatabaseImpl;
 import com.nepalaya.jdvc.dao.impl.StudentDAOMemoryImpl;
 import com.nepalaya.jdvc.models.Student;
 import com.nepalaya.jdvc.response.Response;
@@ -12,7 +13,7 @@ import java.util.List;
 public class StudentServiceImpl implements StudentService {
 
 
-    private StudentDAO studentDAO = new StudentDAOMemoryImpl();
+    private StudentDAO studentDAO = new StudentDAODatabaseImpl();
 
 
     @Override

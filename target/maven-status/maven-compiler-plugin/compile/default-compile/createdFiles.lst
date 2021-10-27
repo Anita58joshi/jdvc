@@ -1,0 +1,11 @@
+com\nepalaya\jdvc\builder\ResponseBuilder.class
+com\nepalaya\jdvc\dao\impl\StudentDAOMemoryImpl.class
+com\nepalaya\jdvc\models\Student.class
+com\nepalaya\jdvc\response\Response$ResponseBuilder.class
+com\nepalaya\jdvc\models\Student$StudentBuilder.class
+com\nepalaya\jdvc\dao\StudentDAO.class
+com\nepalaya\jdvc\util\JacksonUtil.class
+com\nepalaya\jdvc\service\impl\StudentServiceImpl.class
+com\nepalaya\jdvc\storage\MemoryStorage.class
+com\nepalaya\jdvc\response\Response.class
+com\nepalaya\jdvc\service\StudentService.class

@@ -22,5 +22,14 @@ public class Student implements Serializable {
     private Date dob;
     private String address;
     private String contactNo;
+    private Date createdDate;
+    private Boolean status;
 
+    public Student(Long id, String name, Date dob, String address, String contactNo) {
+        this.id = id;
+        this.name = name;
+        this.dob = dob;
+        this.address = address;
+        this.contactNo = contactNo;
+    }
 }
