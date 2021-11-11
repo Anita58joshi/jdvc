@@ -2,11 +2,11 @@ package com.nepalaya.jdvc.exception;
 
 import com.nepalaya.jdvc.util.LogUtil;
 
-public class ExceptionHandler {
+public class Ex {
 
-    public static void handle(ExceptionWrapper wrapper) {
+    public static void caught(ExceptionWrapper wrapper) {
         try {
-            wrapper.process();
+            wrapper.handle();
         } catch (Exception ex) {
             LogUtil.exception(ex);
         }
